@@ -212,3 +212,7 @@ navbar {
     color: gray;
     font-weight: 500;
 }
+
+#status:hover {
+    cursor: pointer;
+}

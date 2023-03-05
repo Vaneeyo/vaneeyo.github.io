@@ -30,6 +30,8 @@ body {
     align-items: center;
     flex-direction: column;
     width: 100vw;
+    margin: 0;
+    top: 0;
 }
 
 navbar {
@@ -88,6 +90,10 @@ navbar {
 #status {
     margin-right: 30px;
     color: white;
+}
+
+#status:hover {
+    cursor: pointer;
 }
 
 #discord:hover {

@@ -69,13 +69,7 @@ navbar {
     top: 800px;
 }
 
-#bestspoofer {
-    color: white;
-    margin-top: 100px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 800;
-    font-size: 75px;
-}
+
 
 #logotitle {
     display: flex;
@@ -215,4 +209,155 @@ navbar {
 
 #status:hover {
     cursor: pointer;
+}
+
+
+
+#startcontainer {
+    position: relative;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#spoofername {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    font-size: 100px;
+}
+
+#bestspoofer {
+    font-weight: 600;
+}
+
+#startcontainersplit {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    font-size: 25px;
+}
+
+#subscriptioncontainer {
+    margin-top: 100px;
+    height: 500px;
+    width: 73vw;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+}
+
+#subscriptionstitle {
+    color: white;
+    font-weight: 800;
+    font-size: 50px;
+}
+
+#subscriptionheader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 90px;
+}
+
+#subscriptionheader > button {
+    border: none;
+    height: 50px;
+    border-radius: 100px;
+    width: 100px;
+    font-size: 15px;
+    background-color: transparent;
+    color: white;
+    border: solid 2px rgb(70, 70, 70);
+    transition: all .3s;
+}
+
+#subscriptionheader > button:hover {
+    cursor: pointer;
+    border: solid 2px rgb(160, 160, 160);
+}
+
+#subdiv {
+    height: 100%;
+    color: white;
+}
+
+.subimg {
+    margin-top: 40px;
+    height: 32.5vh;
+    border-radius: 16px;
+    transition: all .3s;
+}
+
+.subdiv {
+    width: 20vw;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+
+.subinfodiv {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 80%;
+    margin-top: 35px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+
+.sublength {
+    font-weight: 700;
+    font-size: 1.3125rem;
+}
+
+.subprice {
+    font-weight: 300;
+    font-size: 1.2125rem;
+}
+
+.subtext {
+    color: rgb(196, 196, 196);
+}
+
+.subdiv:hover {
+    cursor: pointer;
+}
+
+.subdiv:hover .subimg {
+    scale: 1.05;
+}
+
+.subborder {
+    transition: opacity 0.3s;
+    opacity: 0;
+    background-color: transparent;
+    border: solid 2px gray;
+    border-radius: 30px;
+    height: 498px;
+    width: 20vw; 
+    position: absolute;
+}
+
+.subdiv:hover .subborder {
+    opacity: 0.5;
+}
+
+#subdivcontainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.subtextdiv {
+    width: 80%;
 }

@@ -44,7 +44,7 @@ navbar {
 }
 
 #logo {
-    height: 64px;
+    height: 50px;
 }
 
 .blob {
@@ -195,10 +195,7 @@ navbar {
 }
 
 #title {
-    background: -webkit-linear-gradient(0deg, #ff00c6,#c62192);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: white;
 }
 
 #extra {
@@ -210,8 +207,6 @@ navbar {
 #status:hover {
     cursor: pointer;
 }
-
-
 
 #startcontainer {
     position: relative;
@@ -360,4 +355,11 @@ navbar {
 
 .subtextdiv {
     width: 80%;;
+}
+
+.subline {
+    border-radius: 1px;
+    height: 3px;
+    flex-grow: 0.7;
+    background-color: rgb(160, 160, 160);
 }

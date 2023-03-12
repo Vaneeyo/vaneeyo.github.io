@@ -40,7 +40,7 @@ navbar {
     align-items: center;
     justify-content: space-between;
     margin: 0;
-    margin-top: 25px;
+    margin-top: 40px;
 }
 
 #logo {
@@ -68,7 +68,18 @@ navbar {
     left: 0px;
     top: 800px;
 }
-
+#blob3 {
+    position: absolute;
+    z-index: -1;
+    left: 0px;
+    top: 2300px;
+}
+#blob4 {
+    position: absolute;
+    z-index: -1;
+    right: 0px;
+    top: 1400px;
+}
 
 
 #logotitle {
@@ -78,11 +89,17 @@ navbar {
     font-family: 'Poppins', sans-serif;
     font-weight: 800;
     font-style: italic;
-    margin-left: 30px;
+    margin-left: 60px;
+    gap: 10px;
+}
+
+#navbariconsflex {
+    margin-right: 60px;
+    display: flex;
+    gap: 20px;
 }
 
 .navbaricons {
-    margin-right: 30px;
     color: white;
 }
 

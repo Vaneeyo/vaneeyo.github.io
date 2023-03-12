@@ -177,6 +177,7 @@ navbar {
     font-weight: 800;
 }
 
+
 #functioncontainer {
     display: flex;
     align-items: center;
@@ -217,6 +218,7 @@ navbar {
     opacity: 0.5;
 }
 
+
 .functionfooter {
     color: white;
     font-family: 'Poppins', sans-serif;
@@ -231,6 +233,13 @@ navbar {
 
 .functionicon {
     font-size: 3em;
+    animation: functionicons 1s ease forwards;
+    animation-delay: calc(300ms + var(--order) * 100ms);
+}
+
+@keyframes functionicons {
+    from {transform: translateY(-500px);}
+    to {transform: translateY(0);}
 }
 
 .functionp {

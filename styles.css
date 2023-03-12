@@ -169,7 +169,7 @@ navbar {
 
 .functions {
     width: 20vw;
-    height: 400px;
+    height: 410px;
     overflow: hidden;
 }
 
@@ -219,7 +219,7 @@ navbar {
 .functionp {
     color:  gray;
     margin-right: 20px;
-    font-size: 1.1vw;
+    font-size: 1vw;
 }
 
 .supportedimgs {
@@ -384,7 +384,7 @@ navbar {
 }
 
 .subdiv:hover .subborder {
-    opacity: 0.5;
+    opacity: 0.4;
 }
 
 #subdivcontainer {

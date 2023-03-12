@@ -81,12 +81,12 @@ navbar {
     margin-left: 30px;
 }
 
-#status {
+.navbaricons {
     margin-right: 30px;
     color: white;
 }
 
-#status:hover {
+.navbaricons:hover {
     cursor: pointer;
 }
 
@@ -95,22 +95,38 @@ navbar {
 }
 
 #supporttitle {
-    color: gray;
+    margin-top: 50px;
     font-family: 'Poppins', sans-serif;
-    font-weight: 600;
+    color: white;
+    font-weight: 800;
+    font-size: 50px;
 }
 
 #supportedgames {
-    margin-top: 50px;
+    margin-top: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    flex-direction: column;
+    width: 73vw;
 }
 
 #supportedgames img {
     height: 20vw;
-    border-radius: 12px;
+    border-radius: 16px;
+}
+
+#supportedtitlediv {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+#gameimgsdiv {
+    display: flex;
+    width: 73vw;
+    justify-content: space-between;
 }
 
 #discordbutton {
@@ -135,15 +151,26 @@ navbar {
 
 #functiondiv {
     margin-top: 50px;
+}
+
+#functions {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    font-weight: 800;
+}
+
+#functioncontainer {
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 100px;
+    justify-content: space-between;
+    width: 73vw;
 }
 
 .functions {
     width: 20vw;
     height: 400px;
+    overflow: hidden;
 }
 
 .functionheader {
@@ -156,6 +183,21 @@ navbar {
     gap: 40px;
     font-family: 'Poppins', sans-serif;
     color: white;
+}
+
+.functionborder {
+    transition: opacity 0.3s;
+    opacity: 0;
+    background-color: transparent;
+    border: solid 2px gray;
+    border-radius: 30px;
+    height: 428px;
+    width: 20vw; 
+    position: absolute;
+}
+
+.functions:hover .functionborder {
+    opacity: 0.5;
 }
 
 .functionfooter {
@@ -177,6 +219,7 @@ navbar {
 .functionp {
     color:  gray;
     margin-right: 20px;
+    font-size: 1.1vw;
 }
 
 .supportedimgs {
@@ -202,10 +245,6 @@ navbar {
     font-size: 12px;
     color: gray;
     font-weight: 500;
-}
-
-#status:hover {
-    cursor: pointer;
 }
 
 #startcontainer {
@@ -313,12 +352,12 @@ navbar {
 
 .sublength {
     font-weight: 700;
-    font-size: 1.3125rem;
+    font-size: 1.2vw;
 }
 
 .subprice {
     font-weight: 300;
-    font-size: 1.2125rem;
+    font-size: 1.1vw;
 }
 
 .subtext {
